@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+/* hide underline by default, show for active nav links (react-router sets aria-current="page") */
+.nav-underline {
+    display: none;
+}
+
+a[aria-current="page"] .nav-underline {
+    display: block;
+}
