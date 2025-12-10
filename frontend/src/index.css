@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Playfair Display', 'Times New Roman', serif;
+}
 
 /* hide underline by default, show for active nav links (react-router sets aria-current="page") */
 .nav-underline {
